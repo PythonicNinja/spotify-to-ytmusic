@@ -3,7 +3,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .ruff_cache/
+.env
 browser.json
+oauth.json
 cache/
-playlists/*.csv
+playlists/*
+!playlists/.gitkeep
 .DS_Store

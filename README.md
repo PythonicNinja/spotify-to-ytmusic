@@ -1,6 +1,6 @@
 # spotify-to-ytmusic
 
-Sync Spotify playlists (Exportify `.csv`) to YouTube Music while preserving `Added At` recency order.
+Sync Spotify playlists ([Exportify](https://exportify.net) `.csv`) to YouTube Music while preserving `Added At` recency order (under both **Newest first** and **Manual** sort modes).
 
 Run `make help` to see all steps.
 
@@ -15,11 +15,11 @@ Run `make help` to see all steps.
    ```bash
    make step1
    ```
-3. Export playlists from `https://exportify.net` and put each `.csv` into `playlists/<Playlist Name>.csv`, then verify:
+3. Export your Spotify playlists using [Exportify](https://exportify.net) ([source](https://github.com/watsonbox/exportify)) and put each `.csv` into `playlists/<Playlist Name>.csv`, then verify:
    ```bash
    make step2
    ```
-4. Preview matches and reorder plan (no writes to YouTube Music):
+4. Preview matches and sync plan (no writes to YouTube Music):
    ```bash
    make step3
    ```
@@ -31,5 +31,5 @@ Run `make help` to see all steps.
 
 Target a single playlist on any step:
 ```bash
-make step4 PLAYLIST="Oznaczone gwiazdką"
+make step4 PLAYLIST="Roadtrip"
 ```

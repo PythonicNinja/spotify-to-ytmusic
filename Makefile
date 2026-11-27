@@ -19,7 +19,7 @@ help:
 	@echo "  make step4_rebuild  Clean rebuild: clear existing YTM playlist and re-add all matched tracks in order"
 	@echo ""
 	@echo "Optional filter for step2/step3/step4/step4_rebuild:"
-	@echo "  make step4 PLAYLIST='Oznaczone gwiazdką'"
+	@echo "  make step4 PLAYLIST='Roadtrip'"
 	@echo ""
 	@echo "Aliases and checks:"
 	@echo "  make dev_run        Alias for step3 (dry-run)"
